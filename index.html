@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tremy calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <main class="container">
+     
+        <input type="text" id="display" readonly>
+        <div class="keys">
+             <button onclick="clearDisplay()" class="key-others operations">AC</button>
+            <button onclick="deleteLast()" class="key-others operations">DEL</button>
+            <button onclick="calculatePercentage()" class="key-others operations">%</button>
+            <button onclick="appendToDisplay('/')" class="key-operations">/</button>
+            <button onclick="appendToDisplay('7')" class="numbers">7</button>
+            <button onclick="appendToDisplay('8')" class="numbers">8</button>
+            <button onclick="appendToDisplay('9')" class="numbers">9</button>
+            <button onclick="appendToDisplay('*')" class="key-operations">*</button>
+            
+            <button onclick="appendToDisplay('4')" class="numbers">4</button>
+            <button onclick="appendToDisplay('5')" class="numbers">5</button>
+            <button onclick="appendToDisplay('6')" class="numbers">6</button>
+            <button onclick="appendToDisplay('-')" class="key-operations">-</button>
+            <button onclick="appendToDisplay('1')" class="numbers">1</button>
+            <button onclick="appendToDisplay('2')" class="numbers">2</button>
+            <button onclick="appendToDisplay('3')" class="numbers">3</button>
+            <button onclick="appendToDisplay('+')" class="key-operations" >+</button>
+            <button onclick="appendToDisplay('0')" class="numbers">0</button>
+            <button onclick="appendToDisplay('.')" class="key-operations">.</button>
+            <button onclick="calculate()" class="key-operations">=</button>
+            
+            
+        </div>
+    
+</main>
+</body>
+</html>
